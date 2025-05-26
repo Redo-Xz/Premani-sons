@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="styles.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header id="header">
+      <img id="header-img" src="image1.png" />
+      <nav id="nav-bar">
+        <a href="#services-wrapper" class="nav-link">Services</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#about-us" class="nav-link">About Us</a>
+      </nav>
+    </header>
+    <main>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/f0Shc2YFBIk?si=XnFoFj5QKG3CsqGM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <div id="services-wrapper">
+        <div class="service">
+          <img src="image2.png" />
+          <h3>Business Strategy Consulting</h3>
+          <p>
+            Helping organizations develop effective growth plans and improve
+            competitive positioning.
+          </p>
+        </div>
+        <div class="service">
+          <img src="image3.png" />
+          <h3>Market Research & Analysis</h3>
+          <p>
+            Providing detailed insights to understand market trends, customer
+            behavior, and industry dynamics.
+          </p>
+        </div>
+        <div class="service">
+          <img src="image.png" />
+          <h3 style="margin-top: 70px">Operational Efficiency Advisory</h3>
+          <p>
+            Streamlining business processes to reduce costs and enhance
+            productivity for sustainable success.
+          </p>
+        </div>
+      </div>
+      <div id="pricing">
+        <div id="normal">
+          <h3>Normal Plan</h3>
+          <ul>
+            <li>Basic consultation (email support only)</li>
+            <li>Monthly strategy tips</li>
+            <li>Access to free resources</li>
+            <li>Response time: 72 hours</li>
+          </ul>
+          <button>$19/month</button>
+        </div>
+
+        <div id="pro">
+          <h3>Pro Plan</h3>
+          <ul>
+            <li>Everything in Normal, plus:</li>
+            <li>2 one-on-one sessions/month</li>
+            <li>Personalized growth roadmap</li>
+            <li>Access to case studies</li>
+            <li>Response time: 24 hours</li>
+          </ul>
+          <button>$49/month</button>
+        </div>
+
+        <div id="premium">
+          <h3>Premium Plan</h3>
+          <ul>
+            <li>Everything in Pro, plus:</li>
+            <li>Unlimited consultations</li>
+            <li>Dedicated account manager</li>
+            <li>Market research reports</li>
+            <li>Priority support (response time: 6 hours)</li>
+            <li>Team training sessions</li>
+          </ul>
+          <button>$129/month</button>
+        </div>
+      </div>
+      <form>
+        <p>For more information subscribe to our newsletter</p>
+        <form action="https://www.freecodecamp.com/email-submit" method="POST"></form>
+        <input type="email" name="email" id="email" placeholder="Enter your email"/>
+        <input type="submit" id="submit">
+      </form>
+    </main>
+    <footer id="about-us">
+      <div class="contact-info">
+        <p>
+          <strong>📍 Office Address:</strong> Suite 402, Silverline Business
+          Center, Gulshan Avenue, Karachi, Pakistan.
+        </p>
+        <p><strong>📞 Phone Number:</strong> +92 21 3456 7890</p>
+        <p><strong>📧 Email:</strong> info@premaniconsulting.com</p>
+      </div>
+    </footer>
+  </body>
+</html>
